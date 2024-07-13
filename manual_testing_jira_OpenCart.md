@@ -1,12 +1,17 @@
-Testing Project for **Inserati aici numele aplicatiei pe care o testati**
+# Testing Project for OpenCart
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: Inserati aici numele aplicatiei pe care o testati
+**Application under test:** OpenCart
 
-Tools used: Jira, Zephyr Squad.
+**Tools used:** Jira, Zephyr Squad.
 
-Functional specifications:
-The below story (daca aveti mai multe scrieti stories) was created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
+### Functional specifications: ###
+The below stories ware created in Jira and describe the functional specifications of the "Catalog" module, for which the final project is performed upon.
+
+You can find a example of one of the stories that were created in the picture below:
+
+![image](https://github.com/user-attachments/assets/6507cb4f-0b17-4728-a4e5-e2bd68602283)
+
 
 inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
 
