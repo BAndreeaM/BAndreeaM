@@ -143,17 +143,16 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 ### 2.7 Test Completion As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found [here]() 
-
-
+The traceability matrix was generated and can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Traceability%20Matrix.xlsx) 
 
 
 Test execution chart was generated and can be found below.
 
-(inserati aici raportul de executie generat din jira din sectiunea de dashboards)
+![image](https://github.com/user-attachments/assets/9037937f-3676-473c-8a51-1c699448e62e)
 
-The final report shows that a number (inserati numarul de teste) tests have failed of a total of (inserati numarul de teste)
 
-A number of (inserati numarul de bug-uri) total bugs were found, from which the priority is: (inserati numarul de bug-uri) are high and (inserati numarul de bug-uri) are medium.
+The final report shows that a number 3 tests have failed of a total of 10.
+
+A number of 2 total bugs were found, from which the priority is: ST3AB-32 are high and ST3AB-10 are medium.
 
 (inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)
