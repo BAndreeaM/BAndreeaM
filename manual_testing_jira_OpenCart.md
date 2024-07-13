@@ -110,7 +110,8 @@ The test team used the Jira application to manage the tests, where they managed 
 
 The following is the test status report:
 
-![image](https://github.com/user-attachments/assets/635cb384-e395-4b56-978e-8e2bc522edd3)
+![image](https://github.com/user-attachments/assets/9affccd4-f4a9-4e57-b7b3-61ee203d1b3c)
+
 
 
 ### 2.3 Test Analysis
