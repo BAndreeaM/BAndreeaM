@@ -73,7 +73,7 @@ In order to meet our testing goals, we will only focus on the Catalog Module tha
 
 In terms of testing techniques, we will mostly use black box testing with the following test design techniques:
 - equivalent partitioning
-- limit value analysis
+- boundary analysis
 - decision table
 
 In terms of type of testing, we will use non-functional testing where we will only cover usability testing and compatibility testing. Positive and negative testing should also be performed, and (as needed) retesting and regression testing will be done when defects are fixed or changes of any kind are made to the code.
@@ -89,10 +89,18 @@ From the perspective of the modules covered, any other functionality that is loc
 #### 2.1.5 Risks detected
 
 ##### Project risks:
-(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)
+- The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application
+
+- Not enough time has been allocated in order to properly test and cover all the functionalities in scope 
+
+- All that the data that is going to be used will have to be created explicitly in the scope of testing, which will cut off from the time allocated for testing, generating a risk of not reaching the deadline 
+
 
 ##### Product risks:
-(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
+- All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience
+
+- Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs 
+
 
 #### 2.1.6 Evaluating entry criteria
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
@@ -101,11 +109,12 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 (inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
 
 ### 2.3 Test Analysis
-The testing process will be executed based on the application requirements. (The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review).
+The testing process will be executed based on the application requirements. 
 
-The following test conditions were found:
+You can find below an example of ten test conditions  that were created in the scope of this project:
 
-(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)
+![image](https://github.com/user-attachments/assets/feb0edf5-b601-47b0-9c3c-9a2bd93fa188)
+
 
 ### 2.4 Test Design
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
