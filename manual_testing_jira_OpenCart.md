@@ -27,7 +27,7 @@ The test plan is designed to describe all the testing details for the Catalog mo
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the projects risks associated with the plan.
 
-The test plan that was created for this project can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Test_Plan%20-%20OpenCart%20-%20final.docx)
+The test plan that was created for this project can be found [here]()
 
 
 
@@ -42,16 +42,17 @@ The test plan that was created for this project can be found [here](https://gith
 
 _Entry Criteria for OpenCart E-commerce Shop App Testing_
 
-- The business requirements must be finalizate: All functional and non-functional requirements for the application must be clearly documented and understood by the testing team. This includes the functionalities of each module (Categories, Products, Subscriptions, etc.) and the desired user experience. 
-- The roles must have been allocated: Each tester is assigned their role in testing, this testing team should be properly trained, knowing the functionality of the application and the testing methodologies to be used.
+- The business requirements must be finalizate: All functional and non-functional requirements for the application must be clearly documented and understood by the testing team. This includes the functionalities of each module (Categories, Products, Subscriptions, etc.) and the desired user experience 
+- The roles must have been allocated: Each tester is assigned their role in testing, this testing team should be properly trained, knowing the functionality of the application and the testing methodologies to be used
 - The test plan must be finished and sent to the stakeholders 
 - The project risks must have been identified and mitigated
-- Developed test cases: Detailed test cases should be created that describe the steps to verify each functionality. These test cases should cover both positive and negative scenarios to ensure thorough testing.
-- Established test environment: A dedicated test environment that mirrors the production environment as closely as possible should be set up. This ensures that any issues identified during testing are relevant to real-world application deployment.
-- Prepared test data: A variety of test data sets simulating real-world scenarios should be prepared for testing. This includes product data, customer accounts and orders with different variants (payment methods, shipping options, etc.).
+- Developed test cases: Detailed test cases should be created that describe the steps to verify each functionality. These test cases should cover both positive and negative scenarios to ensure thorough testing
+- Established test environment: A dedicated test environment that mirrors the production environment as closely as possible should be set up. This ensures that any issues identified during testing are relevant to real-world application deployment
+- Prepared test data: A variety of test data sets simulating real-world scenarios should be prepared for testing. This includes product data, customer accounts and orders with different variants (payment methods, shipping options, etc.)
 - Define the objectives of testing and the accepted level of quality 
 
 #### 2.1.3 Exit criteria defined
+
 -	90%  or more of the tests are passed 
 -	No critical issues have status open 
 -	All detected errors have been reported 
@@ -60,16 +61,30 @@ _Entry Criteria for OpenCart E-commerce Shop App Testing_
 -	The objectives were fulfilled 
 -	The product usage documentation has been finalized with the scenarios evaluated during the testing phase 
 -	Test completion report has been created and sent to the stakeholders 
--	Product risks have been identified and mitigated 
+-	Product risks have been identified and mitigated
+-	Not finding bugs of major severity in a specific period of time
+- The existing bugs that were reported must have been fixed and followed by retesting and regression testing 
 
 
 #### 2.1.4 Test scope
 
 ##### Tests in scope:
-(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+In order to meet our testing goals, we will only focus on the Catalog Module that has been scoped for testing and targeted for improvement over the next two months.
+
+In terms of testing techniques, we will mostly use black box testing with the following test design techniques:
+- equivalent partitioning
+- limit value analysis
+- decision table
+
+In terms of type of testing, we will use non-functional testing where we will only cover usability testing and compatibility testing. Positive and negative testing should also be performed, and (as needed) retesting and regression testing will be done when defects are fixed or changes of any kind are made to the code.
 
 ##### Tests not in scope:
-(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+We are not going to cover during the testing process any techniques related to whitebox testing.
+
+Also, performance and security testing will not be performed during this session of testing.
+
+From the perspective of the modules covered, any other functionality that is located outside of the login or register module are not to be tested.
+
 
 #### 2.1.5 Risks detected
 
