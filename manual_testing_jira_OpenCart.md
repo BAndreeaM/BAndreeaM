@@ -27,8 +27,7 @@ The test plan is designed to describe all the testing details for the Catalog mo
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the projects risks associated with the plan.
 
-The test plan that was created for this project can be found [here]()
-
+The test plan that was created for this project can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Test_Plan%20-%20OpenCart%20-%20final.docx)
 
 
 #### 2.1.1. Roles asigned to the project and persons allocated
@@ -106,7 +105,13 @@ From the perspective of the modules covered, any other functionality that is loc
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 ### 2.2 Test Monitoring and Control
-(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
+In the monitoring and control stage, the test team manually executed the test cases and tracked their progress. This involves recording the results (pass/fail) and any observations in a test management tool or spreadsheet.
+The test team used the Jira application to manage the tests, where they managed the test cases, followed their execution status (processed, failed, blocked). This allows for centralized control and visibility into the testing process.
+
+The following is the test status report:
+
+![image](https://github.com/user-attachments/assets/635cb384-e395-4b56-978e-8e2bc522edd3)
+
 
 ### 2.3 Test Analysis
 The testing process will be executed based on the application requirements. 
@@ -123,7 +128,11 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 ### 2.5 Test Implementation
 The following elements are needed to be ready before the test execution phase begins:
 
-(inserati lista de elemente care sunt evaluate in etapa de implementare)
+- We make sure that all the test data is available and reviewed (test data = email examples, password examples, different type of currency, different types of credit cards)
+- We make sure that the setup environment is up and running 
+- We make sure that we have all the needed access and permissions to all the systems involved in the validation process 
+- We prioritize the tests based on risks (if known) and business priority 
+
 
 ### 2.6. Test Execution
 Test cases are executed on the created test Cycle summary.
@@ -155,4 +164,14 @@ The final report shows that a number 3 tests have failed of a total of 10.
 
 A number of 2 total bugs were found, from which the priority is: ST3AB-32 are high and ST3AB-10 are medium.
 
-(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)
+This testing process was aimed at ensuring the functionality and usability of the OpenCart eCommerce store application. A variety of test cases were executed to verify the basic functionalities of the various modules.
+
+_Test results_
+Number of test cases created: 10
+Number of test cases executed: 10
+Requirements coverage: About 95%
+Untested features: subscription plans, filters, downloads.
+
+Bug Impact
+Critical Bugs: 2 critical bugs have been identified that would have a significant impact on product release and functionality in production. These bugs should be fixed before release.
+
