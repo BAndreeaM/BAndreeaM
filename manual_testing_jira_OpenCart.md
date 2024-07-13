@@ -117,7 +117,8 @@ You can find below an example of ten test conditions  that were created in the s
 
 
 ### 2.4 Test Design
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Tests.doc)
+
 
 ### 2.5 Test Implementation
 The following elements are needed to be ready before the test execution phase begins:
@@ -125,10 +126,9 @@ The following elements are needed to be ready before the test execution phase be
 (inserati lista de elemente care sunt evaluate in etapa de implementare)
 
 ### 2.6. Test Execution
-Test cases are executed on the created test Cycle summary: (inserati aici numele cycle-ului pe care l-ati creat)
+Test cases are executed on the created test Cycle summary.
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat)
-
+Bugs have been created based on the failed tests. The complete bug reports can be found [here]()
 The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
