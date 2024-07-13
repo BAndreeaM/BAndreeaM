@@ -166,11 +166,11 @@ A number of 2 total bugs were found, from which the priority is: ST3AB-32 are hi
 
 This testing process was aimed at ensuring the functionality and usability of the OpenCart eCommerce store application. A variety of test cases were executed to verify the basic functionalities of the various modules.
 
-_Test results_
-Number of test cases created: 10
-Number of test cases executed: 10
-Requirements coverage: About 95%
-Untested features: subscription plans, filters, downloads.
+_Test results_ <br>
+Number of test cases created: 10 <br>
+Number of test cases executed: 10 <br>
+Requirements coverage: About 95% <br>
+Untested features: subscription plans, filters, downloads. <br>
 
 Bug Impact
 Critical Bugs: 2 critical bugs have been identified that would have a significant impact on product release and functionality in production. These bugs should be fixed before release.
