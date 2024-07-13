@@ -135,7 +135,10 @@ The following elements are needed to be ready before the test execution phase be
 
 
 ### 2.6. Test Execution
-Test cases are executed on the created test Cycle summary.
+Test cases are executed on the created test Cycle summary. The test cases will be executed based on the Cycle Summary created:
+
+![image](https://github.com/user-attachments/assets/71715b52-0d4b-4b5f-ad3a-74c3d7f0901b)
+
 
 Bugs have been created based on the failed tests. The complete bug reports can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Bugs.doc)
 
