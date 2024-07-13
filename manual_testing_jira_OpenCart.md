@@ -128,14 +128,25 @@ The following elements are needed to be ready before the test execution phase be
 ### 2.6. Test Execution
 Test cases are executed on the created test Cycle summary.
 
-Bugs have been created based on the failed tests. The complete bug reports can be found [here]()
-The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
+Bugs have been created based on the failed tests. The complete bug reports can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Bugs.doc)
+
+
+The following is a summary of the bugs that have been found:
+
+![image](https://github.com/user-attachments/assets/da2a3dee-429e-421d-ac0d-2431f1a5ec27)
+
+- ST3AB-32 -> Priority High, Severity Medium
+- ST3AB-10 -> Priority Medium, Severity Low
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
+
 ### 2.7 Test Completion As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: (inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)
+The traceability matrix was generated and can be found [here]() 
+
+
+
 
 Test execution chart was generated and can be found below.
 
