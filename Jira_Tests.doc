@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://itfclasses.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-31]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-31">Check that a new filter can be successfully saved by entering invalid test data to the reviews list</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19514-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-18">
+                     ST3AB-18                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to vie...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Check that a new filter can be successfully saved by entering invalid test data to the reviews list</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-30]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-30">Verify that a new filter can be successfully saved by entering invalid test data to the product list</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19513-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-11">
+                     ST3AB-11                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to see...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-32">
+                     ST3AB-32                 </a>
+            </td>
+            <td>
+                The administrator cannot find the des...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions:  <br/>
+log into the application with admin role,  <br/>
+navigate to Catalog - Products menu item </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-29]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-29">Check that the administrator have the option to edit, delete, or insert a new Information page</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19512-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-19">
+                     ST3AB-19                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to vie...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Check that the administrator have the option to edit, delete, or insert a new Information page</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-27]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-27">Verify that the Filters attribute on reviews produces the desired results</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19510-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-18">
+                     ST3AB-18                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to vie...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Verify that the Filters attribute produces the desired results.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-26]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-26">Verify that the administrator can view how many customer reviews are awaiting approval</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19509-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-18">
+                     ST3AB-18                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to vie...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Verify that the administrator can view how many customer reviews are awaiting approva</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-25]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-25">Check that the attributes of each product can be edited in the Attributes section of the Catalog module</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 24/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19508-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-14">
+                     ST3AB-14                 </a>
+            </td>
+            <td>
+                As an administrator, I want to be abl...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>The attributes section allows editing the attributes compared between products (weight, size, color, specifications, etc.). Customers have the option to add products to "Add to Compare" to analyze the similarities and differences between products. These attributes are created in the Catalog - Attributes area and can only be edited by the administrator.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-24]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-24">Verify that the Filters attribute produces the desired results</a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19507-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-14">
+                     ST3AB-14                 </a>
+            </td>
+            <td>
+                As an administrator, I want to be abl...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Check that adding product details to the filter such as product name, model, price, quantity and status brings the desired product. </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-23]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-23">Check that adding the details of the products </a>
+            <span class="subText">
+               Created: 12/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19506-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-11">
+                     ST3AB-11                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to see...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Check that editing a product's details works.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-9]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-9">Check that a new product category can be successfully saved by entering invalid test data </a>
+            <span class="subText">
+               Created: 11/Jul/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19479-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-11">
+                     ST3AB-11                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to see...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-10">
+                     ST3AB-10                 </a>
+            </td>
+            <td>
+                The admin is able to save new categor...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions:  </p>
+
+<ul class="alternate" type="square">
+	<li>log into the application with admin role,</li>
+</ul>
+
+
+<ul class="alternate" type="square">
+	<li>navigate to Catalog - Categories menu item</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/ST3AB-1">ST3AB-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [ST3AB-7]&nbsp;<a href="https://itfclasses.atlassian.net/browse/ST3AB-7">Check that a new product category can be successfully saved by entering valid test data</a>
+            <span class="subText">
+               Created: 29/Jun/24                   &nbsp;Updated: 13/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10450">Andreea_Burlacu_ST3</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/ST3AB-1">As an admin I want to have a Catalog module in place to perform all the administrator tasks</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19127-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/ST3AB-11">
+                     ST3AB-11                 </a>
+            </td>
+            <td>
+                As an admin, I want to be able to see...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions: </p>
+<ul class="alternate" type="square">
+	<li>log into the application with admin role,</li>
+	<li>navigate to Catalog - Categories menu item</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Wed Jul 24 10:50:08 UTC 2024 by IT Factory using Jira 1001.0.0-SNAPSHOT#100259-rev:7f358f11dfc0234d4572da00bfbeb1f548bbb29c.
+
+</body>
+</html>
