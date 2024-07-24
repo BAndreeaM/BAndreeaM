@@ -117,7 +117,8 @@ The testing process will be executed based on the application requirements.
 
 You can find below an example of ten test conditions  that were created in the scope of this project:
 
-![image](https://github.com/user-attachments/assets/feb0edf5-b601-47b0-9c3c-9a2bd93fa188)
+![image](https://github.com/user-attachments/assets/c8c805d5-a73a-4e19-b9ea-6e173f428469)
+
 
 
 ### 2.4 Test Design
