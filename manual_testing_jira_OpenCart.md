@@ -141,7 +141,7 @@ Test cases are executed on the created test Cycle summary. The test cases will b
 ![image](https://github.com/user-attachments/assets/71715b52-0d4b-4b5f-ad3a-74c3d7f0901b)
 
 
-Bugs have been created based on the failed tests. The complete bug reports can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Bugs.doc)
+Bugs have been created based on the failed tests. The complete bug reports can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Bugs.pdf)
 
 
 The following is a summary of the bugs that have been found:
