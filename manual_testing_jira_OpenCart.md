@@ -156,7 +156,7 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 ### 2.7 Test Completion As the Exit criteria were met and satisfied, this feature is suggested by the Testing team
 
-The traceability matrix was generated and can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Traceability%20Matrix.xlsx) 
+The traceability matrix was generated and can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Traceability%20Matrix.pdf) 
 
 
 Test execution chart was generated and can be found below.
