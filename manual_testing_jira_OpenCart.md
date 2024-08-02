@@ -45,7 +45,6 @@ _Entry Criteria for OpenCart E-commerce Shop App Testing_
 - The roles must have been allocated: Each tester is assigned their role in testing, this testing team should be properly trained, knowing the functionality of the application and the testing methodologies to be used
 - The test plan must be finished and sent to the stakeholders 
 - The project risks must have been identified and mitigated
-- Developed test cases: Detailed test cases should be created that describe the steps to verify each functionality. These test cases should cover both positive and negative scenarios to ensure thorough testing
 - Define the objectives of testing and the accepted level of quality 
 
 #### 2.1.3 Exit criteria defined
@@ -154,7 +153,9 @@ The following is a summary of the bugs that have been found:
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 
-### 2.7 Test Completion As the Exit criteria were met and satisfied, this feature is suggested by the Testing team
+### 2.7 Test Completion
+
+As the Exit criteria were met and satisfied, this feature is suggested by the Testing team
 
 The traceability matrix was generated and can be found [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Traceability%20Matrix.pdf) 
 
