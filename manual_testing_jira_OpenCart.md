@@ -123,7 +123,7 @@ You can find below an example of ten test conditions  that were created in the s
 
 
 ### 2.4 Test Design
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Tests.doc)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here](https://github.com/BAndreeaM/BAndreeaM/blob/main/Jira_Tests.pdf)
 
 
 ### 2.5 Test Implementation
